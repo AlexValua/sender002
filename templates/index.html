@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    </head>
+    <body>
+        <div class="inputs">
+            <label for="name">Անուն Ազգանուն</label>
+            <input  name="name" type="text">
+            
+            <label for="time">Ժամանակ</label>
+            <input name="time" type="text">
+            
+            <label for="status">Կարգավիճակ</label>
+            <input type="text" name="status">
+			
+        </div>
+
+        <div id="area">
+            <label for="maintext">Գործողություն</label>
+            <textarea name="maintext"></textarea>
+			<input type="submit" name="send" value="send">
+        </div>
+
+    </body>
+</html>
